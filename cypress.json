@@ -1,0 +1,18 @@
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "fixturesFolder": "cypress/fixtures",
+  "integrationFolder": "cypress/integration",
+  "pluginsFile": "cypress/plugins/index.js",
+  "supportFile": "cypress/support/index.js",
+  "screenshotsFolder": "test-reports/assets",
+  "videosFolder": "test-reports/assets",
+  "baseUrl": "http://localhost:3000",
+  "componentFolder": "src/componentTests",
+  "testFiles": "**/*.spec.{js,ts,jsx,tsx}",
+  "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
+}
